@@ -25,6 +25,16 @@ class App extends Component{
     }
 
     */
+
+    async componentDidMount() {
+        const url = "http://localhost:8080/products"
+        const response = await fetch(url);
+        const data = await response.json();
+        console.log(data)
+        this.setState({products: data});
+        console.log(this.state.products)
+    }
+
 }
 
 export default App;
