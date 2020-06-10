@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96207dda-0a42-40f1-9187-7fbe6cda4d92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/component2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/modernizr-2.6.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/polyfills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +24,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -68,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591740296502</updated>
-      <workItem from="1591740312453" duration="15083000" />
+      <workItem from="1591740312453" duration="15338000" />
     </task>
     <task id="LOCAL-00001" summary="creating constructor">
       <created>1591797291951</created>
@@ -119,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591802254539</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first css component created">
+      <created>1591802449569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802449570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="css for demo">
+      <created>1591802502048</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802502048</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding fonts">
+      <created>1591802552735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802552735</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +150,10 @@
     <MESSAGE value="creating button structure" />
     <MESSAGE value="adding buttons" />
     <MESSAGE value="adding css and js path" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding css and js path" />
+    <MESSAGE value="first css component created" />
+    <MESSAGE value="css for demo" />
+    <MESSAGE value="adding fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding fonts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591741718795">
@@ -144,10 +164,10 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1973" y="260" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802422880" />
-    <state x="1983" y="90" width="897" height="847" key="CommitChangelistDialog2" timestamp="1591802501388">
+    <state x="1983" y="90" width="897" height="847" key="CommitChangelistDialog2" timestamp="1591802552618">
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
-    <state x="1983" y="90" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802501388" />
+    <state x="1983" y="90" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802552618" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591746235397">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
