@@ -9,6 +9,22 @@ class App extends Component{
             answer: "YES"
         }
     }
+
+    /*
+    componentDidMount() {
+        fetch("http://localhost:8080/products")
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .then(data =>
+
+            {
+                this.setState({
+                    products : data
+                    })
+                })
+    }
+
+    */
 }
 
 export default App;
