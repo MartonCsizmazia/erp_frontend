@@ -35,6 +35,15 @@ class App extends Component{
         console.log(this.state.products)
     }
 
+    //{this.state.products.map(product => <div>{product.name}</div>)}
+    render() {
+        return (
+            <div >
+                {this.state.products.map(product => <div key={product.id}>{product.name}</div>)}
+            </div>
+
+        );
+    }
 }
 
 export default App;
