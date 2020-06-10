@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96207dda-0a42-40f1-9187-7fbe6cda4d92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/component2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/component2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/codropsicons/codropsicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/codropsicons/codropsicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/codropsicons/codropsicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/codropsicons/codropsicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/codropsicons/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/codropsicons/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/demo2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/demo2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modernizr-2.6.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/modernizr-2.6.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +41,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
@@ -64,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591740296502</updated>
-      <workItem from="1591740312453" duration="15338000" />
+      <workItem from="1591740312453" duration="17276000" />
     </task>
     <task id="LOCAL-00001" summary="creating constructor">
       <created>1591797291951</created>
@@ -136,7 +152,35 @@
       <option name="project" value="LOCAL" />
       <updated>1591802552735</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="normalize.css created">
+      <created>1591802645152</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802645152</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modernizr.js copied in">
+      <created>1591802699902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802699902</updated>
+    </task>
+    <task id="LOCAL-00013" summary="helper javascript polyfills created">
+      <created>1591802797700</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802797700</updated>
+    </task>
+    <task id="LOCAL-00014" summary="script implemented in index.html">
+      <created>1591802865033</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802865033</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +197,11 @@
     <MESSAGE value="first css component created" />
     <MESSAGE value="css for demo" />
     <MESSAGE value="adding fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding fonts" />
+    <MESSAGE value="normalize.css created" />
+    <MESSAGE value="modernizr.js copied in" />
+    <MESSAGE value="helper javascript polyfills created" />
+    <MESSAGE value="script implemented in index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="script implemented in index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591741718795">
@@ -164,10 +212,10 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1973" y="260" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802422880" />
-    <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2" timestamp="1591802797541">
+    <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2" timestamp="1591802864842">
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
-    <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802797541" />
+    <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802864842" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591746235397">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -192,9 +240,10 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1835" y="247" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591797423691" />
-    <state x="481" y="201" width="704" height="522" key="find.popup" timestamp="1591742056727">
-      <screen x="67" y="27" width="1533" height="873" />
+    <state x="1946" y="204" width="704" height="613" key="find.popup" timestamp="1591802984283">
+      <screen x="1600" y="0" width="1280" height="1024" />
     </state>
+    <state x="1946" y="204" width="704" height="613" key="find.popup/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802984283" />
     <state x="481" y="201" width="704" height="522" key="find.popup/67.27.1533.873/1600.0.1280.1024@67.27.1533.873" timestamp="1591742056727" />
   </component>
 </project>
