@@ -3,7 +3,7 @@ import Menu from "./Menu";
 import Stock from "./Stock";
 import Product from "./Product";
 import IncomingDeliveries from "./IncomingDeliveries";
-//import './App.css';
+import './App.css';
 
 class App extends Component{
     constructor(props){
