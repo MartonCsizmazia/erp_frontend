@@ -16,7 +16,6 @@ class Stock extends Component {
         const url = "http://localhost:8080/stock";
         const response = await fetch(url);
         const data = await response.json();
-        console.log("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF")
         console.log(data)
 
         this.setState({stock: data});
