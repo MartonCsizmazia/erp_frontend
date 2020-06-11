@@ -39,6 +39,7 @@ class incomingDeliveries extends Component {
                                     <tbody>
                                     {this.state.incomingdeliveries.map(incomingdelivery =>
                                         <tr className="row100" key={incomingdelivery.id}>
+                                            <td className="column100 column1" data-column="column1" >{incomingdelivery.id}</td>
                                             <td className="column100 column1" data-column="column1" >{incomingdelivery.status}</td>
                                             {incomingdelivery.incomingLineitems.map(lineitem =>
                                                 <td className="column100 column2" data-column="column1" key={lineitem.id}>{lineitem.product.name} {lineitem.quantity}</td>
