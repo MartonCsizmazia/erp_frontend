@@ -73,7 +73,9 @@ class App extends Component{
                 ) : null}
 
                 {this.state.switcher === 3 ?(
-                    <Stock renderMenu={this.renderMenu}/>
+                    <Stock renderMenu={this.renderMenu}
+                           renderProducts={this.renderProducts}
+                    />
                 ) : null}
 
 

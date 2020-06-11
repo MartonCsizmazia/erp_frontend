@@ -21,11 +21,36 @@ class incomingDeliveries extends Component {
 
     render() {
         return (
+
             <div>
-                <button onClick={this.props.renderMenu} >myMenu</button>
-                {this.state.incomingdeliveries.map(incomingdelivery =>
-                    <div key={incomingdelivery.id}>{incomingdelivery.id}   status:{incomingdelivery.status}{incomingdelivery.incomingLineitems.map(lineitem =>
-                        <div key={lineitem.id}>product:{lineitem.product.name}   quantity:{lineitem.quantity}   </div>)}</div>)}
+            <button onClick={this.props.renderMenu} >Menu</button>
+                <div className="limiter">
+                    <div className="container-table100">
+                        <div className="wrap-table100">
+                            <div className="table100 ver6 m-b-110">
+                                <table data-vertable="ver6">
+                                    <thead>
+                                    <tr className="row100 head">
+                                        <th className="column100 column1" data-column="column1">Id</th>
+                                        <th className="column100 column1" data-column="column1">Status</th>
+                                        <th className="column100 column2" data-column="column1">Cargo</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {this.state.incomingdeliveries.map(incomingdelivery =>
+                                        <tr className="row100" key={incomingdelivery.id}>
+                                            <td className="column100 column1" data-column="column1" >{incomingdelivery.status}</td>
+                                            {incomingdelivery.incomingLineitems.map(lineitem =>
+                                                <td className="column100 column2" data-column="column1" key={lineitem.id}>{lineitem.product.name} {lineitem.quantity}</td>
+                                            )}
+                                        </tr>
+                                    )}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
