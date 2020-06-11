@@ -1,11 +1,9 @@
 import React from "react";
 
-const Menu = ({score, playAgain, renderStock}) => (
+const Menu = ({score,  renderStock}) => (
     <div className="score-board">
-        <div className="score"> You scored {score} from 5 questions! </div>
-        <button className="playBtn" onClick={playAgain}>
-            Play again!
-        </button>
+        <div className="score"> Main {score} menu </div>
+
         <li><a href="#"><span><button>Customers</button></span></a></li>
         <li><a href="#"><span><button>Expenses</button></span></a></li>
         <li><a href="#"><span><button>Products</button></span></a></li>

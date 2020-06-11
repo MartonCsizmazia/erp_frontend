@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Menu from "./Menu";
+import Stock from "./Stock";
 //import './App.css';
 
 class App extends Component{
@@ -8,7 +9,7 @@ class App extends Component{
         this.state = {
             products: [],
             answer: "YES",
-            switcher: 1
+            switcher: 0
         }
     }
 
@@ -30,7 +31,7 @@ class App extends Component{
 
     renderStock = () =>{
         this.setState({
-            switcher:0
+            switcher:1
         })
     }
 
@@ -40,24 +41,16 @@ class App extends Component{
         })
     }
 
-    async componentDidMount() {
-        const url = "http://localhost:8080/products";
-        const response = await fetch(url);
-        const data = await response.json();
-        console.log(data)
-        this.setState({products: data});
-        console.log(this.state.products)
-    }
-
 
     //{this.state.products.map(product => <div>{product.name}</div>)}
     render() {
         return (
             <div >
-                {this.state.switcher === 0 &&
-                this.state.products.map(product => <div key={product.id}>{product.name}</div>)}
-
                 {this.state.switcher === 1 ?(
+                    <Stock renderMenu={this.renderMenu}/>
+                ) : null}
+
+                {this.state.switcher === 0 ?(
                     <Menu renderStock={this.renderStock}/>
                 ) : null}
 
