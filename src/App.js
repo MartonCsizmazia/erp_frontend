@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Menu from "./Menu";
 import Stock from "./Stock";
+import Product from "./Product";
 import IncomingDeliveries from "./IncomingDeliveries";
 //import './App.css';
 
@@ -34,7 +35,7 @@ class App extends Component{
         })
     }
 
-    renderStock = () =>{
+    renderProducts = () =>{
         this.setState({
             switcher:1
         })
@@ -46,26 +47,34 @@ class App extends Component{
         })
     }
 
+    renderStock = () =>{
+        this.setState({
+            switcher:3
+        })
+    }
+
     //{this.state.products.map(product => <div>{product.name}</div>)}
     render() {
         return (
             <div >
                 {this.state.switcher === 0 ?(
-                    <Menu renderStock={this.renderStock}
+                    <Menu renderProducts={this.renderProducts}
                           renderIncomingDeliveries={this.renderIncomingDeliveries}
+                          renderStock={this.renderStock}
                     />
                 ) : null}
 
                 {this.state.switcher === 1 ?(
-                    <Stock renderMenu={this.renderMenu}/>
+                    <Product renderMenu={this.renderMenu}/>
                 ) : null}
 
                 {this.state.switcher === 2 ?(
                     <IncomingDeliveries renderMenu={this.renderMenu}/>
                 ) : null}
 
-
-
+                {this.state.switcher === 3 ?(
+                    <Stock renderMenu={this.renderMenu}/>
+                ) : null}
 
 
             </div>

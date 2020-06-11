@@ -24,8 +24,8 @@ class incomingDeliveries extends Component {
             <div>
                 <button onClick={this.props.renderMenu} >myMenu</button>
                 {this.state.incomingdeliveries.map(incomingdelivery =>
-                    <div key={incomingdelivery.id}>{incomingdelivery.id}{incomingdelivery.incomingLineitems.map(lineitem =>
-                        <div key={lineitem.id}>product:{lineitem.product.name}   quantity:{lineitem.quantity}</div>)}</div>)}
+                    <div key={incomingdelivery.id}>{incomingdelivery.id}   status:{incomingdelivery.status}{incomingdelivery.incomingLineitems.map(lineitem =>
+                        <div key={lineitem.id}>product:{lineitem.product.name}   quantity:{lineitem.quantity}   </div>)}</div>)}
             </div>
         );
     }
