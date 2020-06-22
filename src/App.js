@@ -53,6 +53,12 @@ class App extends Component{
         })
     }
 
+    renderExpense = () =>{
+        this.setState({
+            switcher:4
+        })
+    }
+
     //{this.state.products.map(product => <div>{product.name}</div>)}
     render() {
         return (
@@ -74,6 +80,12 @@ class App extends Component{
 
                 {this.state.switcher === 3 ?(
                     <Stock renderMenu={this.renderMenu}
+                           renderProducts={this.renderProducts}
+                    />
+                ) : null}
+
+                {this.state.switcher === 4 ?(
+                    <Expense renderMenu={this.renderMenu}
                            renderProducts={this.renderProducts}
                     />
                 ) : null}
