@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Stock from "./Stock";
 import Product from "./Product";
 import Expense from "./Expense";
+import DeliveryOrder from "./DeliveryOrder";
 import IncomingDeliveries from "./IncomingDeliveries";
 import './App.css';
 
@@ -60,6 +61,12 @@ class App extends Component{
         })
     }
 
+    renderDeliveryOrder = () =>{
+        this.setState({
+            switcher:5
+        })
+    }
+
     //{this.state.products.map(product => <div>{product.name}</div>)}
     render() {
         return (
@@ -69,6 +76,7 @@ class App extends Component{
                           renderIncomingDeliveries={this.renderIncomingDeliveries}
                           renderStock={this.renderStock}
                           renderExpense={this.renderExpense}
+                          renderDeliveryOrder={this.renderDeliveryOrder}
                     />
                 ) : null}
 
@@ -88,7 +96,11 @@ class App extends Component{
 
                 {this.state.switcher === 4 ?(
                     <Expense renderMenu={this.renderMenu}
+                    />
+                ) : null}
 
+                {this.state.switcher === 5 ?(
+                    <DeliveryOrder renderMenu={this.renderMenu}
                     />
                 ) : null}
             </div>
