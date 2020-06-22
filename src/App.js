@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Menu from "./Menu";
 import Stock from "./Stock";
 import Product from "./Product";
+import Expense from "./Expense";
 import IncomingDeliveries from "./IncomingDeliveries";
 import './App.css';
 
@@ -67,6 +68,7 @@ class App extends Component{
                     <Menu renderProducts={this.renderProducts}
                           renderIncomingDeliveries={this.renderIncomingDeliveries}
                           renderStock={this.renderStock}
+                          renderExpense={this.renderExpense}
                     />
                 ) : null}
 
@@ -86,7 +88,7 @@ class App extends Component{
 
                 {this.state.switcher === 4 ?(
                     <Expense renderMenu={this.renderMenu}
-                           renderProducts={this.renderProducts}
+
                     />
                 ) : null}
             </div>
