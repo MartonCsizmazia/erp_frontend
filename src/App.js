@@ -77,8 +77,6 @@ class App extends Component{
                            renderProducts={this.renderProducts}
                     />
                 ) : null}
-
-
             </div>
 
         );
