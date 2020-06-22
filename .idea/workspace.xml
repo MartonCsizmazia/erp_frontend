@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96207dda-0a42-40f1-9187-7fbe6cda4d92" name="Default Changelist" comment="Expense table created">
+    <list default="true" id="96207dda-0a42-40f1-9187-7fbe6cda4d92" name="Default Changelist" comment="Expenses page debugged">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Expense.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1591944124663" duration="2298000" />
       <workItem from="1592490317581" duration="2751000" />
       <workItem from="1592805480758" duration="1593000" />
-      <workItem from="1592853676937" duration="2489000" />
+      <workItem from="1592853676937" duration="5208000" />
     </task>
     <task id="LOCAL-00001" summary="creating constructor">
       <created>1591797291951</created>
@@ -265,14 +263,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592856390873</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Expenses page debugged">
+      <created>1592858440836</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1592858440836</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating constructor" />
     <MESSAGE value="adding componentmount" />
     <MESSAGE value="debugging componentmount" />
     <MESSAGE value="rendering productlist" />
@@ -297,7 +301,8 @@
     <MESSAGE value="Main menu formatted" />
     <MESSAGE value="Expense component created" />
     <MESSAGE value="Expense table created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expense table created" />
+    <MESSAGE value="Expenses page debugged" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expenses page debugged" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591741718795">
@@ -312,11 +317,11 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1973" y="260" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802422880" />
-    <state x="460" y="53" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592857528967">
+    <state x="367" y="27" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592861379784">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591919257701" />
-    <state x="460" y="53" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592857528967" />
+    <state x="367" y="27" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592861379784" />
     <state x="616" y="220" width="374" height="568" key="FileChooserDialogImpl" timestamp="1592806581592">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

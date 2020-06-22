@@ -35,6 +35,7 @@ class Expense extends Component {
                                     <tr className="row100 head">
                                         <th className="column100 column1" data-column="column1">Name</th>
                                         <th className="column100 column2" data-column="column2">Value</th>
+                                        <th className="column100 column2" data-column="column2">Paid</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -42,6 +43,7 @@ class Expense extends Component {
                                         <tr className="row100" key={expense.id}>
                                             <td className="column100 column1" data-column="column1">{expense.name}</td>
                                             <td className="column100 column2" data-column="column1">{expense.value}</td>
+                                            <td className="column100 column3" data-column="column1">{expense.paid.toString()}</td>
 
                                         </tr>
                                     )}
