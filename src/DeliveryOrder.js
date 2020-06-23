@@ -43,6 +43,22 @@ class DeliveryOrder extends Component{
             .catch(error => alert(error));
     }
 
+    addItem(e){
+        e.preventDefault();
+        const newItem = this.state.currentItem;
+        if(newItem.text !==""){
+            const items = [...this.state.incomingLineitems, newItem];
+            this.setState({
+                items: items,
+                currentItem:{
+                    text:'',
+                    text2:'',
+                    key:''
+                }
+            })
+        }
+    }
+
     render() {
         return (
             <div>
