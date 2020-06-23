@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import axios from 'axios';
 import './App.css';
 
 class DeliveryOrder extends Component{
@@ -7,17 +7,25 @@ class DeliveryOrder extends Component{
     constructor(props){
         super(props);
         this.state = {
-            delivery: []
+            name: '',
         }
     }
 
-    async componentDidMount() {
-        const url = "http://localhost:8080/incoming-deliveries";
-        const response = await fetch(url);
-        const data = await response.json();
+    handleSubmit = event =>{
+        event.preventDefault();
 
-        this.setState({expenses: data});
-    }
+        const delivery = {
+            name: this.state.name,
+        };
+
+        axios.post('localhost:8080/incoming-delivery/add', {delivery})
+            .then(res =>{
+                console.log(res);
+                console.log(res.data)
+            })
+    };
+
+
 
     render() {
         return (

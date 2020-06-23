@@ -86,7 +86,7 @@
       <workItem from="1591944124663" duration="2298000" />
       <workItem from="1592490317581" duration="2751000" />
       <workItem from="1592805480758" duration="1593000" />
-      <workItem from="1592853676937" duration="11710000" />
+      <workItem from="1592853676937" duration="12647000" />
     </task>
     <task id="LOCAL-00001" summary="creating constructor">
       <created>1591797291951</created>
@@ -312,14 +312,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592895120774</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="implementing componentdidmount in deliveryOrder">
+      <created>1592895816711</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1592895816711</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding css and js path" />
     <MESSAGE value="first css component created" />
     <MESSAGE value="css for demo" />
     <MESSAGE value="adding fonts" />
@@ -344,7 +350,8 @@
     <MESSAGE value="input form added, order routed to menu" />
     <MESSAGE value="input form designed" />
     <MESSAGE value="axios added to project &quot;npm i axios&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="axios added to project &quot;npm i axios&quot;" />
+    <MESSAGE value="implementing componentdidmount in deliveryOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing componentdidmount in deliveryOrder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591741718795">
@@ -359,11 +366,11 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1973" y="260" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802422880" />
-    <state x="334" y="53" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592895120550">
+    <state x="235" y="53" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592895816087">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591919257701" />
-    <state x="334" y="53" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592895120550" />
+    <state x="235" y="53" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592895816087" />
     <state x="616" y="220" width="374" height="568" key="FileChooserDialogImpl" timestamp="1592806581592">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
