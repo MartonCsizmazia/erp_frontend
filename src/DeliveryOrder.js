@@ -6,7 +6,17 @@ class DeliveryOrder extends Component{
 
     constructor(props){
         super(props);
+        this.state = {
+            delivery: []
+        }
+    }
 
+    async componentDidMount() {
+        const url = "http://localhost:8080/incoming-deliveries";
+        const response = await fetch(url);
+        const data = await response.json();
+
+        this.setState({expenses: data});
     }
 
     render() {
