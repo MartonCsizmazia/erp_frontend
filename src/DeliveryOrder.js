@@ -11,6 +11,10 @@ class DeliveryOrder extends Component{
         }
     }
 
+    handleChange = event =>{
+        this.setState({name: event.target.value})
+    };
+
     handleSubmit = event =>{
         event.preventDefault();
 
@@ -31,10 +35,10 @@ class DeliveryOrder extends Component{
         return (
             <div>
                 <button onClick={this.props.renderMenu} >Menu</button>
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <label>
                         Name:
-                        <input className="input-form" type="text" name="name" />
+                        <input className="input-form" type="text" name="name" onChange={this.handleChange}/>
                     </label>
                     <input type="submit" value="Submit" />
                 </form>
