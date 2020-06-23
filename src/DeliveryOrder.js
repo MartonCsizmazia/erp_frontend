@@ -82,6 +82,8 @@ class DeliveryOrder extends Component{
         })
     }
 
+
+
     render() {
         return (
             <div>
@@ -93,6 +95,25 @@ class DeliveryOrder extends Component{
                         <input className="input-form" type="text" name="product" onChange={this.handleChange}/>
                     </label>
                     <button type="submit" >Add</button>
+
+                    {/* form solution from earlier */}
+                    <form id="to-do-form" onSubmit={this.addItem}>
+                        <input type="text"
+                               placeholder="Enter task"
+                               value= {this.state.currentItem.text}
+                               onChange={this.handleInput} >
+
+                        </input>
+                        <input type="text"
+                               placeholder="Enter task"
+                               value= {this.state.currentItem.text2}
+                               onChange={this.handleInput} >
+
+                        </input>
+                        <button type="submit">Add</button>
+                    </form>
+                    <p>{this.state.items.text}</p>
+                    <p>{this.state.items.text2}</p>
                 </form>
             </div>
         );
