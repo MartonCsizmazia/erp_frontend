@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96207dda-0a42-40f1-9187-7fbe6cda4d92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeliveryOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeliveryOrder.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Angular2Html" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../9th_TW/recipe_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ADVANCED/3rd_TW_ismetles/projectQ_NEW_frontend/projectq-new-frontend" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -86,7 +85,7 @@
       <workItem from="1591944124663" duration="2298000" />
       <workItem from="1592490317581" duration="2751000" />
       <workItem from="1592805480758" duration="1593000" />
-      <workItem from="1592853676937" duration="15670000" />
+      <workItem from="1592853676937" duration="17241000" />
     </task>
     <task id="LOCAL-00001" summary="creating constructor">
       <created>1591797291951</created>
@@ -333,14 +332,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592898630831</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="input created for lineitem fields">
+      <created>1592899850549</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1592899850549</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding fonts" />
     <MESSAGE value="normalize.css created" />
     <MESSAGE value="modernizr.js copied in" />
     <MESSAGE value="helper javascript polyfills created" />
@@ -365,7 +370,8 @@
     <MESSAGE value="implementing componentdidmount in deliveryOrder" />
     <MESSAGE value="form handleSubmit implemented in DeliveryOrder.js" />
     <MESSAGE value="handling change in DeliveryOrder.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="handling change in DeliveryOrder.js" />
+    <MESSAGE value="input created for lineitem fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="input created for lineitem fields" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591741718795">
@@ -380,17 +386,17 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1973" y="260" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802422880" />
-    <state x="263" y="46" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592898628895">
+    <state x="263" y="46" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592902434594">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591919257701" />
-    <state x="263" y="46" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592898628895" />
-    <state x="616" y="220" width="374" height="568" key="FileChooserDialogImpl" timestamp="1592806581592">
+    <state x="263" y="46" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592902434594" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592900975516">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="2058" y="226" width="374" height="568" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591820518789" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1280.1024@67.27.1533.873" timestamp="1591746235397" />
-    <state x="616" y="220" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1592806581592" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1592900975516" />
     <state width="1510" height="197" key="GridCell.Tab.0.bottom" timestamp="1592863995656">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

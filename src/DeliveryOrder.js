@@ -29,7 +29,19 @@ class DeliveryOrder extends Component{
             })
     };
 
-
+    sendCredentials = () => {
+        axios.post("http://localhost:8080/auth/signin", {
+            "username": this.state.username,
+            "password": this.state.password
+        })
+            .then(
+                res => {
+                    console.log(res.data);
+                    localStorage.setItem('token', res.data.token);
+                    this.setRedirect();
+                })
+            .catch(error => alert(error));
+    }
 
     render() {
         return (
