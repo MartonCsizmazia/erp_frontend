@@ -7,19 +7,19 @@ class DeliveryOrder extends Component{
     constructor(props){
         super(props);
         this.state = {
-            name: '',
+            incomingLineitems: [],
         }
     }
 
     handleChange = event =>{
-        this.setState({name: event.target.value})
+        this.setState({incomingLineitems: event.target.value})
     };
 
     handleSubmit = event =>{
         event.preventDefault();
 
         const delivery = {
-            name: this.state.name,
+            incomingLineitems: this.state.incomingLineitems,
         };
 
         axios.post('localhost:8080/incoming-delivery/add', {delivery})
@@ -37,10 +37,11 @@ class DeliveryOrder extends Component{
                 <button onClick={this.props.renderMenu} >Menu</button>
                 <form onSubmit={this.handleSubmit}>
                     <label>
-                        Name:
-                        <input className="input-form" type="text" name="name" onChange={this.handleChange}/>
+                        Lineitems:
+                        <input className="input-form" type="text" name="quantity" onChange={this.handleChange}/>
+                        <input className="input-form" type="text" name="product" onChange={this.handleChange}/>
                     </label>
-                    <input type="submit" value="Submit" />
+                    <button type="submit" >Add</button>
                 </form>
             </div>
         );
