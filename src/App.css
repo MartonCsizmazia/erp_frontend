@@ -56,3 +56,10 @@ li{
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
+
+.input-form{
+  background-color: #dcdcdc;
+  width: 100%;
+  border: none;
+  padding: 10px;
+}
