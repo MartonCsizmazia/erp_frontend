@@ -82,6 +82,16 @@ class DeliveryOrder extends Component{
         })
     }
 
+    tick() {
+        this.setState(
+            {timeToWait: (this.state.timeToWait-1000 <= 0 ? 0 : this.state.timeToWait-1000)}
+        )
+    }
+
+    formattedTime = (milliseconds) => {
+        return  msToTime(milliseconds);
+    };
+
 
 
     render() {
@@ -97,6 +107,7 @@ class DeliveryOrder extends Component{
                     <button type="submit" >Add</button>
 
                     {/* form solution from earlier */}
+                    {/*
                     <form id="to-do-form" onSubmit={this.addItem}>
                         <input type="text"
                                placeholder="Enter task"
@@ -112,8 +123,10 @@ class DeliveryOrder extends Component{
                         </input>
                         <button type="submit">Add</button>
                     </form>
+
                     <p>{this.state.items.text}</p>
                     <p>{this.state.items.text2}</p>
+                    */}
                 </form>
             </div>
         );

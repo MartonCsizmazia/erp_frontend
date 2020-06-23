@@ -86,7 +86,7 @@
       <workItem from="1591944124663" duration="2298000" />
       <workItem from="1592490317581" duration="2751000" />
       <workItem from="1592805480758" duration="1593000" />
-      <workItem from="1592853676937" duration="21925000" />
+      <workItem from="1592853676937" duration="23720000" />
     </task>
     <task id="LOCAL-00001" summary="creating constructor">
       <created>1591797291951</created>
@@ -361,14 +361,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592911420594</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="solution with form for the deliveryOrder">
+      <created>1592920122999</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1592920122999</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="script implemented in index.html" />
     <MESSAGE value="css js and font folder repositioned" />
     <MESSAGE value="Menu component created" />
     <MESSAGE value="stock component implemented" />
@@ -393,7 +399,8 @@
     <MESSAGE value="credentials sent" />
     <MESSAGE value="itemcreator implemented" />
     <MESSAGE value="currentitem is now thetarget value" />
-    <option name="LAST_COMMIT_MESSAGE" value="currentitem is now thetarget value" />
+    <MESSAGE value="solution with form for the deliveryOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution with form for the deliveryOrder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591741718795">
@@ -408,11 +415,11 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1973" y="260" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802422880" />
-    <state x="390" y="34" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592919932690">
+    <state x="542" y="27" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592923440553">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591919257701" />
-    <state x="390" y="34" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592919932690" />
+    <state x="542" y="27" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592923440553" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592900975516">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -447,11 +454,11 @@
     <state width="1510" height="219" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1280.1024@67.27.1533.873" timestamp="1591742607131" />
     <state width="1830" height="251" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1591955731465" />
     <state width="744" height="197" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1592910415392" />
-    <state x="348" y="238" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1592911426573">
+    <state x="348" y="238" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1592920418373">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1835" y="247" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591920624730" />
-    <state x="348" y="238" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1592911426573" />
+    <state x="348" y="238" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1592920418373" />
     <state x="1921" y="203" width="627" height="615" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591902097540">
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
@@ -462,9 +469,10 @@
     <state x="1946" y="204" width="704" height="613" key="find.popup/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591902434648" />
     <state x="481" y="201" width="704" height="522" key="find.popup/67.27.1533.873/1600.0.1280.1024@67.27.1533.873" timestamp="1591742056727" />
     <state x="481" y="93" width="844" height="631" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1592490947836" />
-    <state x="1904" y="232" key="run.anything.popup" timestamp="1591872255989">
-      <screen x="1600" y="0" width="1280" height="1024" />
+    <state x="431" y="225" key="run.anything.popup" timestamp="1592920415359">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1904" y="232" key="run.anything.popup/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591872255989" />
+    <state x="431" y="225" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1592920415359" />
   </component>
 </project>
