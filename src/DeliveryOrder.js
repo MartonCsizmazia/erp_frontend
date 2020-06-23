@@ -59,6 +59,29 @@ class DeliveryOrder extends Component{
         }
     }
 
+    handleInput(e){
+        this.setState({
+            currentItem:{
+                text: e.target.value,
+                key: Date.now()
+            }
+        })
+    }
+
+    setUpdate(text,key) {
+        console.log("items:" + this.state.items);
+        const items = this.state.items;
+        items.map(item => {
+            if (item.key === key) {
+                console.log(item.key + "    " + key)
+                item.text = text;
+            }
+        })
+        this.setState({
+            items: items
+        })
+    }
+
     render() {
         return (
             <div>
