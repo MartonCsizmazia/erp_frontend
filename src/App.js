@@ -7,7 +7,9 @@ import DeliveryOrder from "./DeliveryOrder";
 import Customers from "./Customers";
 import IncomingDeliveries from "./IncomingDeliveries";
 import Suppliers from "./Suppliers";
+import Employees from "./Employees";
 import './App.css';
+
 
 class App extends Component{
     constructor(props){
@@ -81,6 +83,11 @@ class App extends Component{
         })
     }
 
+    renderEmployees = () =>{
+        this.setState({
+            switcher:8
+        })
+    }
     //{this.state.products.map(product => <div>{product.name}</div>)}
     render() {
         return (
@@ -93,6 +100,7 @@ class App extends Component{
                           renderDeliveryOrder={this.renderDeliveryOrder}
                           renderCustomers={this.renderCustomers}
                           renderSuppliers={this.renderSuppliers}
+                          renderEmployees={this.renderEmployees}
                     />
                 ) : null}
 
@@ -127,6 +135,11 @@ class App extends Component{
 
                 {this.state.switcher === 7 ?(
                     <Suppliers renderMenu={this.renderMenu}
+                    />
+                ) : null}
+
+                {this.state.switcher === 8 ?(
+                    <Employees renderMenu={this.renderMenu}
                     />
                 ) : null}
             </div>
