@@ -5,11 +5,12 @@ const Menu = ({score,
               renderProducts,
               renderIncomingDeliveries,
               renderExpense,
-              renderDeliveryOrder}) => (
+              renderDeliveryOrder,
+              renderCustomers}) => (
     <div className="score-board">
         <div className="menu"> Main {score} menu </div>
 
-        <li><a href="#"><span ><button className="zoom">Customers</button></span></a></li>
+        <li><a href="#"><span><button onClick={renderCustomers} className="zoom">Customers</button></span></a></li>
         <li><a href="#"><span><button onClick={renderExpense} className="zoom">Expenses</button></span></a></li>
         <li><a href="#"><span><button onClick={renderProducts} className="zoom">Products</button></span></a></li>
         <li><a href="#"><span><button onClick={renderDeliveryOrder} className="zoom">Order a new delivery</button></span></a></li>

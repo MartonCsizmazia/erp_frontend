@@ -4,6 +4,7 @@ import Stock from "./Stock";
 import Product from "./Product";
 import Expense from "./Expense";
 import DeliveryOrder from "./DeliveryOrder";
+import Customers from "./Customers";
 import IncomingDeliveries from "./IncomingDeliveries";
 import './App.css';
 
@@ -67,6 +68,12 @@ class App extends Component{
         })
     }
 
+    renderCustomers = () =>{
+        this.setState({
+            switcher:6
+        })
+    }
+
     //{this.state.products.map(product => <div>{product.name}</div>)}
     render() {
         return (
@@ -77,6 +84,7 @@ class App extends Component{
                           renderStock={this.renderStock}
                           renderExpense={this.renderExpense}
                           renderDeliveryOrder={this.renderDeliveryOrder}
+                          renderCustomers={this.renderCustomers}
                     />
                 ) : null}
 
@@ -101,6 +109,11 @@ class App extends Component{
 
                 {this.state.switcher === 5 ?(
                     <DeliveryOrder renderMenu={this.renderMenu}
+                    />
+                ) : null}
+
+                {this.state.switcher === 6 ?(
+                    <Customers renderMenu={this.renderMenu}
                     />
                 ) : null}
             </div>
