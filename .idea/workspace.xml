@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96207dda-0a42-40f1-9187-7fbe6cda4d92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Customers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Suppliers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.js" afterDir="false" />
@@ -88,7 +88,7 @@
       <workItem from="1591944124663" duration="2298000" />
       <workItem from="1592490317581" duration="2751000" />
       <workItem from="1592805480758" duration="1593000" />
-      <workItem from="1592853676937" duration="30248000" />
+      <workItem from="1592853676937" duration="31936000" />
     </task>
     <task id="LOCAL-00001" summary="creating constructor">
       <created>1591797291951</created>
@@ -391,14 +391,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592978198283</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Customer page implemented with fetch">
+      <created>1592991320274</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1592991320274</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="incoming deliveries displayed" />
     <MESSAGE value="stock displayed" />
     <MESSAGE value="adding css for table" />
     <MESSAGE value="table for products implemented" />
@@ -423,7 +429,8 @@
     <MESSAGE value="timer added deliveryorder" />
     <MESSAGE value="mlseconds counted" />
     <MESSAGE value="css added for circular menu system" />
-    <option name="LAST_COMMIT_MESSAGE" value="css added for circular menu system" />
+    <MESSAGE value="Customer page implemented with fetch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer page implemented with fetch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591741718795">
@@ -438,11 +445,11 @@
       <screen x="1600" y="0" width="1280" height="1024" />
     </state>
     <state x="1973" y="260" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591802422880" />
-    <state x="542" y="27" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592978196778">
+    <state x="542" y="27" width="897" height="847" key="CommitChangelistDialog2" timestamp="1592991319756">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1928" y="99" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1280.1024@1600.0.1280.1024" timestamp="1591919257701" />
-    <state x="542" y="27" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592978196778" />
+    <state x="542" y="27" width="897" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1592991319756" />
     <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592900975516">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

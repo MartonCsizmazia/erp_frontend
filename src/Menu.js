@@ -6,7 +6,8 @@ const Menu = ({score,
               renderIncomingDeliveries,
               renderExpense,
               renderDeliveryOrder,
-              renderCustomers}) => (
+              renderCustomers,
+              renderSuppliers}) => (
     <div className="score-board">
         <div className="menu"> Main {score} menu </div>
 
@@ -17,7 +18,7 @@ const Menu = ({score,
         <li><a href="#"><span><button onClick={renderIncomingDeliveries} className="zoom">Incoming deliveries</button> </span></a></li>
         <li><a href="#"><span><button onClick={renderStock} className="zoom">Stock</button></span></a></li>
         <li><a href="#"><span><button className="zoom">Employee</button></span></a></li>
-        <li><a href="#"><span><button className="zoom">Supplier</button></span></a></li>
+        <li><a href="#"><span><button onClick={renderSuppliers} className="zoom">Suppliers</button></span></a></li>
     </div>
 );
 
